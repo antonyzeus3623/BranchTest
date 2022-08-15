@@ -1,10 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"BranchTest/add"
+	"BranchTest/sub"
+)
 
 func main() {
 	a := 5
 	b := 2
-	fmt.Println(a, b)
+	sum := add.Add(a, b)
+	sub := sub.Sub(a, b)
+	fmt.Println("a + b = ", sum)
+	fmt.Println("a - b = ", sub)
 
 }
