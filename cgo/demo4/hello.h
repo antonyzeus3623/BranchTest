@@ -1,2 +1,0 @@
-
-void SayHelloWorld(char* s);
