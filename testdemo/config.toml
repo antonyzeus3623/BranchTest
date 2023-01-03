@@ -1,0 +1,15 @@
+[SvFields]
+Float = [
+  "",
+  "2.Etch1_upper_filter_pressure",
+  "3.Etch1_down_filter_pressure",
+  "4.Etch2_upper_filter_pressure",
+  "",
+
+  "5.Etch2_down_filter_pressure",
+  "6.Etch3_upper_filter_pressure",
+  "7.Etch3_down_filter_pressure",
+    "",
+
+
+	]

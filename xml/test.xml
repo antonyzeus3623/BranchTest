@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Request>
+    <Header>
+        <MESSAGENAME>MES.COMPONENTHOLD</MESSAGENAME>
+        <TRANSACTIONID>GLLy65t9NyjQJurT1PBo8Y</TRANSACTIONID>
+        <ORGRRN>"+orgrrn+"</ORGRRN>
+        <ORGNAME>"+factoryName+"</ORGNAME>
+        <USERNAME>PDP</USERNAME>
+        <LANGUAGE>ZH</LANGUAGE>
+    </Header>
+    <Body>
+        <ACTIONTYPE>HOLD</ACTIONTYPE>
+        <ACTIONCODE>SPCHD</ACTIONCODE>
+        <ACTIONCOMMENT>"+alarmTypeList+" Hold PCD-0</ACTIONCOMMENT>
+        <HOLDOWNER>"+holdOwner+"</HOLDOWNER>
+        <COMPONENTLIST>
+            <COMPONENT>
+                <ALST>111</ALST>
+                <ALCD>222</ALCD>
+                <ALID>333</ALID>
+                <ALTX>444</ALTX>
+                <UNITID>555</UNITID>
+                <CHARTID>666</CHARTID>
+                <EQPID>777</EQPID>
+                <RULETYPE>888</RULETYPE>
+                <GRAPHTYPE>999</GRAPHTYPE>
+                <LOTID>000</LOTID>
+                <GLSID>123</GLSID>
+            </COMPONENT>
+        </COMPONENTLIST>
+    </Body>
+</Request>
